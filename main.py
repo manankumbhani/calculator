@@ -1,16 +1,30 @@
-# This is a sample Python script.
+""" This is the calculator function"""
+class Calculator:
+    """This is Calculator class"""
 
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
+    result = 0
+    def get_result(self):
+        """ Get Result of Calculation"""
+        return self.result
 
+    def add(self,val_a):
+        """ Adds the value_a to result and store the value """
+        self.result = self.result + val_a
+        return self.result
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press ⌘F8 to toggle the breakpoint.
+    def subtract(self, val_a):
+        """ Subtracts the Value_a from result and store the value """
+        self.result = self.result - val_a
+        return self.result
 
+    def multiply(self, val_a, val_b):
+        """ multiplying the value_a and value_b and store the value """
+        self.result = val_a * val_b
+        return self.result
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+    def divide(self, val_a, val_b):
+        """ Dividing the value_a and value_b and store the value """
+        if val_b == 0:
+            raise ZeroDivisionError("The divisor must not be zero")
+        self.result = val_a / val_b
+        return self.result
