@@ -1,4 +1,6 @@
 """Testing the Calculator"""
+import pytest
+
 from main import Calculator
 
 def test_calculator_result():
@@ -37,5 +39,6 @@ def test1_divide():
 def test2_divide():
     """ tests division of two numbers"""
     calc = Calculator()
-    calc.divide(2,1)
-    assert calc.result == 2, ZeroDivisionError
+    with pytest.raises(Exception):
+        calc.divide(2,0)
+    assert calc.result == 0,'The divisor must not be zero'

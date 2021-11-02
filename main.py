@@ -24,7 +24,5 @@ class Calculator:
 
     def divide(self, val_a, val_b):
         """ Dividing the value_a and value_b and store the value """
-        if val_b == 0:
-            raise ZeroDivisionError("The divisor must not be zero")
         self.result = val_a / val_b
         return self.result
