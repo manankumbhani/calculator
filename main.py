@@ -1,13 +1,16 @@
 """ This is the calculator function"""
+
+
 class Calculator:
     """This is Calculator class"""
 
     result = 0
+
     def get_result(self):
         """ Get Result of Calculation"""
         return self.result
 
-    def add(self,val_a):
+    def add(self, val_a):
         """ Adds the value_a to result and store the value """
         self.result = self.result + val_a
         return self.result
