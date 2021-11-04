@@ -99,6 +99,7 @@ def test_get_last_calculation():
     calculation = Calculator.history[-1].get_result()
     assert calculation == 6
 
+
 def test_get_history():
     """test the history of calculation"""
     assert Calculator.add_numbers(1, 2) == 3

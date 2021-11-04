@@ -27,12 +27,6 @@ class Calculator:
         return Calculator.history[0]
 
     @staticmethod
-    def add_calculation_to_history(calculation):
-        """adding the calculation to history"""
-        return Calculator.history.append(calculation)
-
-
-    @staticmethod
     def get_last_history_calculation_result():
         """gets the result of last calculation from history"""
         return Calculator.history[-1].get_result()
