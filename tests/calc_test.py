@@ -1,5 +1,6 @@
 """Testing the Calculator"""
 import pprint
+
 from calculator.main import Calculator
 
 
@@ -100,9 +101,9 @@ def test_get_last_calculation():
 
 def test_get_history():
     """test the history of calculation"""
-    assert Calculator.clear_history()
     assert Calculator.add_numbers(1, 2) == 3
     assert Calculator.add_numbers(2, 2) == 4
     assert Calculator.add_numbers(3, 2) == 5
     assert Calculator.add_numbers(4, 2) == 6
-    assert Calculator.get_history()
+    get_his = Calculator.get_history()
+    assert get_his

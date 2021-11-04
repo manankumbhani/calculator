@@ -29,8 +29,8 @@ class Calculator:
     @staticmethod
     def add_calculation_to_history(calculation):
         """adding the calculation to history"""
-        calc_add = Calculator.history.append(calculation)
-        return calc_add
+        return Calculator.history.append(calculation)
+
 
     @staticmethod
     def get_last_history_calculation_result():
