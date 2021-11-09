@@ -5,7 +5,7 @@ class Subtraction(Calculation):  # pylint: disable=too-few-public-methods
     """Subtraction class to get the result from Calculation class"""
 
     def get_result(self):
-        """defining get_result method"""
+        """Defining get_result method"""
         diff_of_values = 0.0
         for value in self.values:
             diff_of_values = diff_of_values - value

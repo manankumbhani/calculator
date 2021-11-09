@@ -2,7 +2,7 @@
 from calc.calculations.multiply import Multiplication
 
 def test_calculation_multiplication():
-    """testing if the calculator has a static method for multiplication"""
+    """Testing if the calculator has a static method for multiplication"""
     #Arrange
     my_nums = (2.0,3.0,0.5,1,0.5)
     #Act

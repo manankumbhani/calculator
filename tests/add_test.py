@@ -2,7 +2,7 @@
 from calc.calculations.add import Addition
 
 def test_calculation_addition():
-    """testing if the calculator has a static method for addition"""
+    """Testing if the calculator has a static method for addition"""
     #Arrange
     my_nums = (1.0,2.0,3,4.5)
     #Act

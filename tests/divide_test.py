@@ -3,7 +3,7 @@ import pytest
 from calc.calculations.divide import Division
 
 def test_calculation_division():
-    """testing that our calculator has a static method for multiplication"""
+    """Testing that our calculator has a static method for multiplication"""
     #Arrange
     mynumbers = (2.0,2.0,2,0.5)
     #Act

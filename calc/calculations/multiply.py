@@ -5,7 +5,7 @@ class Multiplication(Calculation):  # pylint: disable=too-few-public-methods
     """Multiplication class to get the result from Calculation class"""
 
     def get_result(self):
-        """defining get_result method"""
+        """Defining get_result method"""
         result = 1.0
         for value in self.values:
             result = result * value
