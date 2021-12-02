@@ -6,7 +6,5 @@ class Division(Calculation):  # pylint: disable=too-few-public-methods
 
     def get_result(self):
         """Defining get_result method"""
-        result = 1.0
-        for value in self.values:
-            result = result / value
+        result = self.values[0] / self.values[1]
         return result
