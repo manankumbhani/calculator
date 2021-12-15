@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block title %}Index{% endblock %}
+{% block head %}
+    {{ super() }}
+    <style type="text/css">
+        .important { color: #336699; }
+    </style>
+{% endblock %}
+{% block content %}
+    <h1 align="center">Calculator History</h1>
+ <table class="table table-striped">
+                <thead>
+                    <tr>
+                    <th scope="col">Record</th>
+                    <th scope="col">Operation</th>
+                    <th scope="col">Value 1</th>
+                    <th scope="col">Value 2</th>
+                    <th scope="col">Result</th>
+                    </tr>
+                </thead>
+                <tbody>
+     <tr>
+      <th scope="row">1</th>
+      <td>addition</td>
+      <td>2.0</td>
+      <td>3.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>addition</td>
+      <td>4.0</td>
+      <td>1.0</td>
+      <td>5.0</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>multiplication</td>
+      <td>2.0</td>
+      <td>3.0</td>
+      <td>6.0</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>division</td>
+      <td>6.0</td>
+      <td>3.0</td>
+      <td>2.0</td>
+    </tr>
+  </tbody>
+ </table>
+{% endblock %}

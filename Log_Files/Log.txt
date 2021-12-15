@@ -1,0 +1,89 @@
+
+UNIX_time_stamp 1638477551.5587704	 File_name: add.csv
+Record_No	Value_1	Value_2	Operation	Result
+0	1	2	add	3.0
+1	2	3	add	5.0
+2	3	4	add	7.0
+3	4	5	add	9.0
+4	5	6	add	11.0
+5	6	7	add	13.0
+6	7	8	add	15.0
+7	8	9	add	17.0
+8	9	10	add	19.0
+9	10	11	add	21.0
+10	11	12	add	23.0
+11	12	13	add	25.0
+12	13	14	add	27.0
+13	14	15	add	29.0
+14	15	16	add	31.0
+15	16	17	add	33.0
+16	17	18	add	35.0
+17	18	19	add	37.0
+18	19	20	add	39.0
+19	20	21	add	41.0
+
+UNIX_time_stamp 1638477551.7627451	 File_name: subtract.csv
+Record_No	Value_1	Value_2	Operation	Result
+0	1	2	subtract	-3.0
+1	2	3	subtract	-5.0
+2	3	4	subtract	-7.0
+3	4	4	subtract	-8.0
+4	5	3	subtract	-8.0
+5	6	7	subtract	-13.0
+6	7	8	subtract	-15.0
+7	8	6	subtract	-14.0
+8	9	10	subtract	-19.0
+9	10	8	subtract	-18.0
+10	11	54	subtract	-65.0
+11	12	13	subtract	-25.0
+12	13	4	subtract	-17.0
+13	14	7	subtract	-21.0
+14	15	16	subtract	-31.0
+15	16	7	subtract	-23.0
+16	17	18	subtract	-35.0
+17	18	7	subtract	-25.0
+18	19	20	subtract	-39.0
+19	20	7	subtract	-27.0
+
+UNIX_time_stamp 1638477551.906628	 File_name: multiply.csv
+Record_No	Value_1	Value_2	Operation	Result
+0	1	2	multiply	2.0
+1	2	3	multiply	6.0
+2	3	4	multiply	12.0
+3	4	5	multiply	20.0
+4	5	6	multiply	30.0
+5	6	7	multiply	42.0
+6	7	8	multiply	56.0
+7	8	9	multiply	72.0
+8	9	10	multiply	90.0
+9	10	11	multiply	110.0
+10	11	12	multiply	132.0
+11	12	13	multiply	156.0
+12	13	14	multiply	182.0
+13	14	15	multiply	210.0
+14	15	16	multiply	240.0
+15	16	17	multiply	272.0
+16	17	18	multiply	306.0
+17	18	19	multiply	342.0
+18	19	20	multiply	380.0
+19	20	21	multiply	420.0
+
+UNIX_time_stamp 1638477552.0361946	 File_name: divide.csv
+Record_No	Value_1	Value_2	Operation	Result
+0	3	1	divide	3.0
+1	4	2	divide	2.0
+2	5	3	divide	1.6666666666666667
+3	6	2	divide	3.0
+4	7	4	divide	1.75
+5	8	1	divide	8.0
+6	9	5	divide	1.8
+7	10	6	divide	1.6666666666666667
+9	12	4	divide	3.0
+10	13	3	divide	4.333333333333333
+12	15	3	divide	5.0
+13	16	6	divide	2.6666666666666665
+14	17	2	divide	8.5
+15	18	2	divide	9.0
+16	19	5	divide	3.8
+17	20	9	divide	2.2222222222222223
+18	21	7	divide	3.0
